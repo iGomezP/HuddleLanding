@@ -1,0 +1,104 @@
+/* font-family: 'Poppins', sans-serif;
+font-family: 'Open Sans', sans-serif; */
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  line-height: 4rem;
+}
+
+body {
+  background-color: hsl(193, 100%, 96%);
+  margin: 0;
+  font-size: 18px;
+}
+
+hr {
+  border-width: medium;
+  background-color: black;
+}
+
+/* Header Section */
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-gap: 10px;
+  background: url("../images/bg-hero-desktop.svg")no-repeat;
+  background-size: cover;
+  height: 1000px;
+  width: 100%;
+}
+
+.mockupsImage {
+  width: 80%;
+}
+
+.logoImage {
+  text-align: left;
+  margin: 4rem;
+}
+
+.tryItFree-btn {
+  border-radius: 25px;
+  width: 240px;
+  height: 50px;
+  background-color: white;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border: 0;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 800;
+}
+
+.tryItFree-btn:hover {
+  background-color: black;
+  color: white;
+}
+
+.getStarted-btn {
+  position: absolute;
+}
+
+.getStarted-btn {
+  background-color: hsl(322, 100%, 66%);
+  color: white;
+  border-radius: 25px;
+  width: 240px;
+  height: 50px;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border: 0;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+}
+
+.item1 {
+  grid-row: row 0;
+  text-align: left;
+}
+
+.item2 {
+  padding-top: 4rem;
+  grid-row: row 0;
+  padding-left: 400px;
+}
+
+.item3 {
+  grid-row: row 1;
+  text-align: left;
+  padding: 50px 100px 100px 80px;
+  height: 600px;
+  width: auto;
+}
+
+.item3 p {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+}
+
+.getStarted {
+  text-align: left;
+  margin-top: 50px;
+}
+
+.item4 {
+  grid-row: row 1;
+  text-align: center;
+}
