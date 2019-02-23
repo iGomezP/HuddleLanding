@@ -30,9 +30,7 @@ hr {
   grid-template-columns: auto auto auto;
   grid-gap: 10px;
   background: url("../images/bg-hero-desktop.svg")no-repeat;
-  background-size: auto;
-  height: auto;
-  width: auto;
+  background-size: 100% 100%;
 }
 
 .mockupsImage {
