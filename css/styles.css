@@ -32,7 +32,7 @@ hr {
   background: url("../images/bg-hero-desktop.svg")no-repeat;
   background-size: cover;
   height: 1000px;
-  width: 100%;
+  width: auto;
 }
 
 .mockupsImage {
@@ -221,6 +221,7 @@ hr {
 /* Footer Section */
 .footer-section {
   background-color: hsl(192, 100%, 9%);
+  width: auto;
   color: white;
 }
 
