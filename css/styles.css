@@ -4,18 +4,11 @@ h1, h2, h3, h4, h5, h6 {
   font-family: 'Poppins', sans-serif;
   font-weight: 600;
   line-height: 4rem;
-<<<<<<< HEAD
   color: hsl(192, 100%, 9%);
 }
 
 body {
   background-color: white;
-=======
-}
-
-body {
-  background-color: hsl(193, 100%, 96%);
->>>>>>> 6776217ad9f4e6e1a3d32ebe1e6852cf0125cf7e
   margin: 0;
   font-size: 18px;
 }
@@ -26,7 +19,6 @@ hr {
 }
 
 /* Header Section */
-<<<<<<< HEAD
 .header-section {
   background-color: hsl(193, 100%, 96%);
   margin: 0;
@@ -34,9 +26,6 @@ hr {
 
 .grid-container-title {
   background-color: hsl(193, 100%, 96%);
-=======
-.grid-container {
->>>>>>> 6776217ad9f4e6e1a3d32ebe1e6852cf0125cf7e
   display: grid;
   grid-template-columns: auto auto auto;
   grid-gap: 10px;
@@ -60,11 +49,7 @@ hr {
   width: 240px;
   height: 50px;
   background-color: white;
-<<<<<<< HEAD
   box-shadow: 0 0 30px 5px rgba(0, 0, 0, 0.1);
-=======
-  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
->>>>>>> 6776217ad9f4e6e1a3d32ebe1e6852cf0125cf7e
   border: 0;
   font-family: 'Open Sans', sans-serif;
   font-weight: 800;
@@ -75,21 +60,12 @@ hr {
   color: white;
 }
 
-<<<<<<< HEAD
 .getStartedTitle-btn {
-=======
-.getStarted-btn {
-  position: absolute;
-}
-
-.getStarted-btn {
->>>>>>> 6776217ad9f4e6e1a3d32ebe1e6852cf0125cf7e
   background-color: hsl(322, 100%, 66%);
   color: white;
   border-radius: 25px;
   width: 240px;
   height: 50px;
-<<<<<<< HEAD
   box-shadow: 0 0 30px 5px rgba(0, 0, 0, 0.1);
   border: 0;
   font-family: 'Open Sans', sans-serif;
@@ -98,34 +74,17 @@ hr {
 }
 
 .item1-title {
-=======
-  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  border: 0;
-  font-family: 'Open Sans', sans-serif;
-  font-weight: 400;
-}
-
-.item1 {
->>>>>>> 6776217ad9f4e6e1a3d32ebe1e6852cf0125cf7e
   grid-row: row 0;
   text-align: left;
 }
 
-<<<<<<< HEAD
 .item2-title {
-=======
-.item2 {
->>>>>>> 6776217ad9f4e6e1a3d32ebe1e6852cf0125cf7e
   padding-top: 4rem;
   grid-row: row 0;
   padding-left: 400px;
 }
 
-<<<<<<< HEAD
 .item3-title {
-=======
-.item3 {
->>>>>>> 6776217ad9f4e6e1a3d32ebe1e6852cf0125cf7e
   grid-row: row 1;
   text-align: left;
   padding: 50px 100px 100px 80px;
@@ -133,7 +92,6 @@ hr {
   width: auto;
 }
 
-<<<<<<< HEAD
 .item3-title p {
   font-family: 'Open Sans', sans-serif;
   font-weight: 400;
@@ -141,19 +99,10 @@ hr {
 }
 
 .getStarted-btn {
-=======
-.item3 p {
-  font-family: 'Open Sans', sans-serif;
-  font-weight: 400;
-}
-
-.getStarted {
->>>>>>> 6776217ad9f4e6e1a3d32ebe1e6852cf0125cf7e
   text-align: left;
   margin-top: 50px;
 }
 
-<<<<<<< HEAD
 .item4-title {
   grid-row: row 1;
   text-align: center;
@@ -415,9 +364,4 @@ hr {
     margin-bottom: 30px;
     grid-column: 2;
   }
-=======
-.item4 {
-  grid-row: row 1;
-  text-align: center;
->>>>>>> 6776217ad9f4e6e1a3d32ebe1e6852cf0125cf7e
 }
